@@ -24,4 +24,5 @@ public interface TodoMapper {
 
     // 전체 데이터 수 (페이지 번호 구성)
     int getCount(PageRequestDTO pageRequestDTO);
+
 }
